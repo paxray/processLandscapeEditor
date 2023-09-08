@@ -7,11 +7,11 @@
   },
   "types": [
     {
-      "name": "landscapeRootBoard",
+      "name": "LandscapeRootBoard",
       "properties": [
         {
           "name": "plane",
-          "type": "landscapePlane",
+          "type": "LandscapePlane",
           "redefines": "Board#rootElement"
         },
         {
@@ -23,7 +23,7 @@
       "superClass": ["Board"]
     },
     {
-      "name": "landscapePlane",
+      "name": "LandscapePlane",
       "properties": [
         {
           "name": "boardElement",
@@ -36,7 +36,7 @@
       "superClass": ["Plane"]
     },
     {
-      "name": "landscapeShape",
+      "name": "LandscapeShape",
       "properties": [
         {
           "name": "boardElement",

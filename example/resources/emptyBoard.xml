@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <landscape:Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" id="sample-diagram">
-  <landscape:landscapeBoard id="Board_1">
-  </landscape:landscapeBoard>
-  <landscapeDi:landscapeRootBoard id="RootBoard_1">
-    <landscapeDi:landscapePlane id="PositPlane_1" boardElement="Board_1">
-    </landscapeDi:landscapePlane>
-  </landscapeDi:landscapeRootBoard>
+  <landscape:LandscapeBoard id="Board_1">
+  </landscape:LandscapeBoard>
+  <landscapeDi:LandscapeRootBoard id="RootBoard_1">
+    <landscapeDi:LandscapePlane id="PositPlane_1" boardElement="Board_1">
+    </landscapeDi:LandscapePlane>
+  </landscapeDi:LandscapeRootBoard>
 </landscape:Definitions>

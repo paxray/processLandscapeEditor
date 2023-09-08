@@ -24,7 +24,7 @@
       ]
     },
     {
-      "name": "landscapeBoard",
+      "name": "LandscapeBoard",
       "superClass": ["RootElement"],
       "properties": [
         {
@@ -114,7 +114,7 @@
         {
           "name": "rootBoards",
           "isMany": true,
-          "type": "landscapeDi:landscapeRootBoard"
+          "type": "landscapeDi:LandscapeRootBoard"
         },
         {
           "name": "exporter",
