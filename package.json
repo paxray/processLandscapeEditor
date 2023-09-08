@@ -1,0 +1,85 @@
+{
+  "name": "landscape-js-core",
+  "version": "1.1.0",
+  "scripts": {
+    "all": "run-s lint test",
+    "lint": "eslint .",
+    "test": "karma start karma.conf.js",
+    "dev": "npm test -- --auto-watch --no-single-run",
+    "sync:live": "git checkout live && git merge main && git push origin live && git checkout main",
+    "start:example": "npm start --workspace=example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pinussilvestrus/landscape-js"
+  },
+  "files": [
+    ".babelrc",
+    "index.js",
+    "assets",
+    "dist",
+    "lib",
+    "test/util",
+    "test/helper",
+    "test/matchers",
+    "!.eslintrc"
+  ],
+  "keywords": [
+    "diagram-js",
+    "toolkit",
+    "web modeler",
+    "post-it",
+    "brainstorming"
+  ],
+  "author": {
+    "name": "Niklas Kiefer",
+    "url": "https://github.com/pinussilvestrus"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "sideEffects": [
+    "*.css"
+  ],
+  "workspaces": [
+    "example"
+  ],
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-match": "^1.1.1",
+    "eslint": "^8.42.0",
+    "eslint-plugin-bpmn-io": "^1.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "file-loader": "^6.2.0",
+    "karma": "^6.4.2",
+    "karma-chrome-launcher": "^3.2.0",
+    "karma-debug-launcher": "0.0.5",
+    "karma-env-preprocessor": "^0.1.1",
+    "karma-firefox-launcher": "^2.1.2",
+    "karma-mocha": "^2.0.1",
+    "karma-sinon-chai": "^2.0.2",
+    "karma-webpack": "^5.0.0",
+    "mocha": "^10.2.0",
+    "mocha-test-container-support": "^0.2.0",
+    "npm-run-all": "^4.1.5",
+    "puppeteer": "^21.0.0",
+    "raw-loader": "^4.0.2",
+    "sinon": "^15.1.2",
+    "sinon-chai": "^3.7.0",
+    "webpack": "^5.87.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "@ibm/plex": "^6.3.0",
+    "bpmn-font": "^0.12.0",
+    "css.escape": "^1.5.1",
+    "diagram-js": "^12.2.0",
+    "diagram-js-direct-editing": "^2.0.0",
+    "ids": "^1.0.0",
+    "inherits-browser": "^0.1.0",
+    "min-dash": "^4.1.1",
+    "min-dom": "^4.1.0",
+    "moddle": "^6.2.3",
+    "moddle-xml": "^10.1.0",
+    "object-refs": "^0.3.0",
+    "tiny-svg": "^3.0.1"
+  }
+}

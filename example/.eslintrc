@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "plugin:bpmn-io/browser",
+    "plugin:bpmn-io/node"
+  ],
+  "globals": {
+    "Sentry": true,
+    "dataLayer": true
+  }
+}
