@@ -139,13 +139,13 @@ button:hover, a:hover {
 
 .pjs-landscape-square {
   margin: 8px;
-  width: 32px !important;
-  height: 32px !important;
-  background-color: #7fc844;
+  width: 29px !important;
+  height: 29px !important;
+  border: 1.5px solid black;
 }
 
 .pjs-landscape-triangle {
-  background-image: url("./icons/image.svg");
+  background-image: url("./icons/triangle.svg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 8px 8px 4px 8px;
@@ -153,7 +153,7 @@ button:hover, a:hover {
   height: 32px !important;
 }
 .pjs-landscape-process {
-  background-image: url("./icons/image.svg");
+  background-image: url("./icons/arrow.svg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 8px 8px 4px 8px;
